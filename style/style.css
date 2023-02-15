@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(26, 148, 26);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.counters_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    gap: 20px;
+    font-size: 68px;
+    font-family: 'Roboto';
+    flex-direction: column-reverse;
+
+}
+
+.counters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0000;
+}
